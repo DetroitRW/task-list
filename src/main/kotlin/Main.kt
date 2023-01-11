@@ -4,6 +4,12 @@ fun main(args: Array<String>) {
     menu()
     val newTasks = TaskList()
     val doneTasks = TaskList()
+
+    while (true) {
+        print("Введите команду: ")
+        val command = scanner()
+
+
 fun menu() {
     println("Возможные команды:")
     println("- Отобразить список задач (=)")
