@@ -8,4 +8,7 @@ fun menu() {
     println("- Удалить задачу(-)")
 }
 
+fun scanner(): String {
+    return Scanner(System.`in`).next()
+}
 }
