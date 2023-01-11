@@ -1,4 +1,9 @@
+import java.util.*
+
 fun main(args: Array<String>) {
+    menu()
+    val newTasks = TaskList()
+    val doneTasks = TaskList()
 fun menu() {
     println("Возможные команды:")
     println("- Отобразить список задач (=)")
